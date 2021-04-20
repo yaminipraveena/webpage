@@ -1,0 +1,308 @@
+body{
+	padding: 0;
+	margin: 0;
+	font-family:"Times New Roman", Times, serif;
+}
+.contact{
+	width: 100%;
+	position: center;
+	top: 100%;
+	text-align:center;
+	padding: 0px, 0px;
+	color: transparent;
+	color: rgba(0,0,0,0.5);
+	margin-top: 200px;
+	margin-right: 50px;
+	position: relative;
+}
+.content{
+	width: 100%;
+	color: transparent;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	text-align: center;
+	color: rgba(0,0,0,0.5);
+
+
+
+}
+.logo img{
+	margin-top: -70px;
+	margin-left: -100px;
+	position: absolute;
+	background-size: contain;
+	width: 200px;
+	height: 200px;
+	padding:0px 0px;
+	float: left;
+	font-size: 24px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #000;
+}
+.logo1 {
+	margin-top: -30px;
+	margin-right: 800px;
+	color: #fff;
+	font-size:20px;
+	padding: 0px 20px;
+	width: 200px;
+	height: 100px;
+	float: right;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:60px;
+	padding:10px 90px;
+	box-sizing:border-box;
+	background: rgba(0,0,0,0.4);
+	border-bottom:1px solid #fff;
+}
+nav ul{
+	list-style: none;
+	float: right;
+	margin: 0;
+	padding: 0;
+	display: flex;
+	position: relative;
+}
+nav ul li a{
+	line-height: 40px;
+	color:#fff;
+	padding: 12px 30px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+nav ul li a:hover{
+	background: rgba(0,0,0,0.7);
+	border-radius: 6px;
+}
+nav ul li:hover > ul{
+	display:block;
+}
+nav ul li:hover {
+	background: :transparent;
+	transition: 0.9s;
+
+}
+nav ul ul{
+	display: none;
+	background: transparent;
+	padding: 0;
+	margin: 0;
+	float:left;
+	margin-top: 10px;
+	margin-left: 20px;
+	position: absolute;
+	top:100%;
+	color: black;
+	transition: 0.9s;
+}
+nav ul ul li {
+	float:none;
+	position:relative;
+
+}
+nav ul ul li a{
+	padding :25px;
+	color:white;
+	width:300px;
+	text-align:left;
+}
+nav ul ul li a:hover{
+	background: lightblack;
+	color: white;
+	transition:0.9s;
+}
+body{
+	width:100%;
+	height: 100vh;
+	background: url("dm5.jpg");
+	background-size: cover;
+	background-position: center;
+	font-size: 15px;
+}
+button{
+	width: 200px;
+	padding: 15px 0;
+	margin-left: 550px;
+	color:#000;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	background-color:black;
+	border-radius: 25px;
+	border: 2px solid #fff;
+	background: transparent;
+	cursor: pointer;
+	position: relative;
+	top:60%;
+
+}
+span{
+	background: #fff;
+	width: 0;
+	height: 100%;
+	border-radius: 25px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	z-index: -1;
+	transition: 0.5s;
+}
+button:hover span{
+	width: 100%;
+}
+button:hover{
+	border: none;
+}
+
+
+/*
+	background-color: skyblue;
+	background-image:url("dm5.jpg");
+	background-size:cover;
+	/*background-position: center;*/
+	/*background-repeat: no-repeat;
+	height: 10px;
+	width: 1000px;
+}/*
+.menu-bar{
+	background: rgba(0,100,0);
+	text-align: right;
+	background-size: cover;
+
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	list-style: none;
+	color: white;
+	align-items: cover;
+}
+.menu-bar ul li{
+	width: 120px;
+	margin: 15px;
+	padding:15px ;
+}
+/*
+.menu-bar {
+  background-color: #333;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar *//*
+.menu-bar ul{
+  display: inline-flex;
+  list-style: none;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover *//*
+.menu-bar ul li{
+  background-color: #ddd;
+  color: black;
+  width: 120px;
+  margin: 15px;
+  padding:15px;
+}
+
+/* Add a color to the active/current link *//*
+.menu-bae a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+*/
+/*
+img{
+	max-width: 2000%;
+	max-height: 2000%;
+	align-items:left;
+}/*
+h3{
+	text-align: top;
+	font-size: 50px;
+	color: black;
+}*/
+/*
+h1{
+	text-align: center;
+	font-size: 50px;
+	color: black;
+}
+form{
+	margin: 20px auto;
+	width:320px;
+	font-size: 40;
+	color: black;
+}
+input{
+	padding: 10px;
+	font-size: inherit;
+}
+input[type="text"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 50%;
+	border: 2px solid steelblue;
+}
+input[type="PHONE"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 50%;
+	border: 2px solid steelblue;
+}
+input[type="radio"]{
+	margin: 0 8px 25px 18px;	
+}
+input[type="radio"]:first-child {
+	 margin-left: 0;
+}
+input[type="checkbox"]{
+	margin: 0 8px 25px 18px;
+}
+input[type="checkbox"]:first-child {
+	margin-left: 0;
+}
+input[type="submit"]{
+	width: 100px;
+	height: 45px;
+	border: none;
+	background: steelblue;
+}
+input[type="reset"]{
+	width: 100px;
+	height: 45px;
+	border: none;
+	background: white;
+}
+input[type="radio"]:checked + label{
+	font-weight: bold;
+	font-size: 18px;
+}
+input[type="date"]{
+	display: block;
+	margin-bottom: 25px;
+	width: 50%;
+	border: 2px solid steelblue;
+}
+select[name="rooms"]{
+	width: 50%;
+	height: 45px;
+	border: 2px solid steelblue;
+	background: white;
+}*/
